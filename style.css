@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+*
+body
+{
+    background-image: url(https://s.pfst.net/2015.08/817687288060497ceb1251f1b3d2034367c5074cd84_b.jpg);
+    background-size: contain;
+}
+.game-card {
+    height: 100vh;
+    font-family: 'Itim', cursive;
+}
+
+.card-start{
+    padding: 10px;
+}
+
+.LabelMin{
+    color: white;
+}
+
+.LabelMax{
+    color: white;
+}
+
+.LabelMin, .LabelMax{
+    font-size: 24px;
+    text-align: center;
+}
+
+.card{
+    transition: 0.5s;
+    background-color:rgba(11, 238, 181, 0.897);
+}
+
+.scale-0{
+    transform: scale(0);
+}
